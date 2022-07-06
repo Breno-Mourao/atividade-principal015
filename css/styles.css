@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Beckett';
+    src: url(../font/BECKETT_.TTF);
+}
+@font-face {
+    font-family: 'Bank Gothic Medium';
+    src: url(../font/bank-gothic-medium.otf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #16161D;
+}
+/* Background Image */
+#bg-img {
+    position: fixed;
+}
+#bg-img img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* TÍTULO MENU */
+header h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: Beckett;
+    color: #accbf1;
+    font-size: 100px;
+    left: 8%;
+    top: 8%;
+}
+/* MAIN MENU */
+main {
+    position: absolute;
+    color: #4a5a6b;
+    font-family: Bank Gothic Medium;
+    text-align: center;
+    font-size: 60px;
+    left: 30%;
+    top: 35%;
+}
+main ul li {
+    list-style: none;
+    margin: 10px;
+}
+main ul li:hover {
+    color: #accbf1;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    header h1 {
+        font-size: 75px;
+        left: 5%;
+        top: 5%;
+    }
+    main {
+        font-size: 50px;
+        left: 20%;
+        top: 30%;
+    }
+}
