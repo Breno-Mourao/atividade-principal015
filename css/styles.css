@@ -62,3 +62,15 @@ main ul li:hover {
         top: 30%;
     }
 }
+@media(max-width:500px) {
+    header h1 {
+        font-size: 40px;
+        left: 5%;
+        top: 3%;
+    }
+    main {
+        font-size: 35px;
+        left: 7%;
+        top: 20%;
+    }
+}
